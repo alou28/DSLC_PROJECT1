@@ -4,7 +4,7 @@
 # # Home Credit Default Risk
 
 # # creer un modèle de machine learning qui doit etre capable de prédire si oui ou non un couple peut avoir droit à un pret immobilier.
-NOM:HASSAN BACHACHA,EMERIC BERTIN,ALAIN NGOMEDJ
+# NOM:HASSAN BACHACHA,EMERIC BERTIN,ALAIN NGOMEDJ
 # In[1]:
 
 
