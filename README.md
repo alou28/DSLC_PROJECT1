@@ -47,20 +47,27 @@ It contains various informations about previous loans and the if the loans has b
 ## Feature Engineering
 
 The first part of the project is to build an ML Project with respect of using 3 machine learning models:
-Random Forest
-XGBoost
-Gradient Boosting
-But our goal isn't just to create three machine learning models. Indeed, these models' accuracies aren't very important. In fact the real goal is to implement multiple tools into the project, in order to make the project more understandable for everyone. The tools to be used are:
+* Random Forest
+* XGBoost
+* Gradient Boosting
+But our goal isn't just to create three machine learning models. 
+
+Indeed, these models' accuracies aren't very important. 
+The real goal is to implement multiple tools into the project, in order to make the project more understandable for everyone.
+to do that we will be using this precise workflow :
+
+* Conda environment
+* Git: Creating a Git repository and granting access to everyone
+* Sphinx: Documentation Library 
+* Mlflow: Help manage the complete machine learning lifecycle of a data science Project
+* SHAP: Game theoretic approach to explain the output of any machine learning model.
+
+We decided to start computing models on Jupyter Lab in a Conda environment. We decided to not use multiple branches in the Git repository, as we thought it wasn't necessary. For the project documentation, we used Sphinx.
 
 First, We encode the categorical columns values and then split the data into train and test values. 
 Now, our datas are ready for the model training and prediction.
 
-Git
-Conda environment
-Mlflow
-SHAP
-Structuration
-After creating a Git repository and granting access to everyone that needed it, we decided to start computing models on Jupyter Lab in a Conda environment. We decided to not use multiple branches in the Git repository, as we thought it wasn't necessary. For the project documentation, we used Sphinx.
+
 
 # Project Outputs
 
