@@ -34,9 +34,10 @@ It contains various informations about previous loans and the if the loans has b
   * __RandomForest.pkl__ : A random forest model
   * __XGBoost.pkl__ : An Extra Gradient Boosting model
 * __Notebook__ : The directory containing the 6 notebooks used for that project
-  * __Data_preparation.ipynb__ : A notebook which collect the data from application_train.csv come from a [Kaggle contest](.csv and create dataset_prepared.csv
-  * __Features_engineering.ipynb__ : A notebook that collects the data from dataset_prepared.csv and creates dataset_final.csv
-  * __Model_training.ipynb__: A notebook that splits the data from dataset_final.csv into a test and a training dataset, then used the training dataset to train the 3 models
+  * __DDSLC_PROJECT__ : The notebook with all the informations
+  * __Data_preparation.ipynb__ : A notebook which collect the data from application_train.csv and application_test.csv
+  * __Features_engineering.ipynb__ : A notebook that encode the categorical columns values and then split the data into train and test values. 
+  * __Model_training.ipynb__: A notebook to train the 3 machine learning models
   * __MLFLOW_PART.ipynb__: A notebook used to evaluate the trained models
 * __mlruns__ : A directory created when using MLflow which contains the runs' logs
 * __ReadMe.md__ : The file you are currently reading
