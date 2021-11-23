@@ -44,6 +44,14 @@ It contains various informations about previous loans and the if the loans has b
 
 ## Data Exploration and Data cleaning
 
+*Data Exploration
+
+For the data exploration we focus on Target data to see the importance of this column into the dataset.
+
+*Data cleaning
+
+First, we drop columns with more than 65% missing values. Then, we replace "DAYS_BIRTH" and "DAYS_EMPLOYED" by numerical values.
+
 ## Feature Engineering
 
 The first part of the project is to build an ML Project with respect of using 3 machine learning models:
