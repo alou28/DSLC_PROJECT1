@@ -43,6 +43,16 @@ It contains various informations about previous loans and the if the loans has b
 * __.gitignore__ : A file that is used to exclude files that shan't be on the git either because they're not relevant (like Jupyter's logs) or because they're too big (like the models and datasets)
 
 ## Data Exploration and Data cleaning
+ 
+ *Data Exploration
+ 
+ For the data exploration we focus on Target data to see the importance of this column into the dataset.
+ 
+ 
+ *Data cleaning
+ 
+ First, we drop columns with more than 65% missing values. 
+ Then, we replace "DAYS_BIRTH" and "DAYS_EMPLOYED" by numerical values.
 
 ## Feature Engineering
 
