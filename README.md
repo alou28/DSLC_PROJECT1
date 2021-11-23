@@ -73,9 +73,9 @@ Now, our datas are ready for the model training and prediction.
 
 ## Sphinx
 To access to sphinx in the path repesitory in the terlinal, we need to type:
-* make html
-* cd _build\html
-* index.html
+1. make html
+2. cd _build\html
+3. index.html
 
 ![knlk](https://user-images.githubusercontent.com/93646318/143021301-7f030118-fdeb-4156-84c2-beb5ad34ac74.PNG)
 ![bhjb](https://user-images.githubusercontent.com/93646318/143021313-6b4eaf73-7eae-4b2e-ad16-a485e5097d7d.PNG)
