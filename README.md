@@ -78,7 +78,11 @@ Now, our datas are ready for the model training and prediction.
 ## Mlflow ui
 ![kehirfb](https://user-images.githubusercontent.com/93646318/143021243-ef60f0bd-1a1e-4305-b516-4e39cea69106.PNG)
 ![jbfd](https://user-images.githubusercontent.com/93646318/143021350-d80148a7-3b5e-4341-baf7-82140cdcffa9.PNG)
+
 ## SHAP
+
+SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
+
 ![jbnj](https://user-images.githubusercontent.com/93646318/143021381-9e17e483-311a-4eb9-bc4a-89f37bcb8ec1.PNG)
 ![Capture](https://user-images.githubusercontent.com/93646318/143021388-f9b8ac9f-eaaf-48a6-b118-31e99bd818d2.PNG)
 
