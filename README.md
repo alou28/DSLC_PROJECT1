@@ -42,7 +42,7 @@ It contains various informations about previous loans and the if the loans has b
 * __ReadMe.md__ : The file you are currently reading
 * __.gitignore__ : A file that is used to exclude files that shan't be on the git either because they're not relevant (like Jupyter's logs) or because they're too big (like the models and datasets)
 
-## Data Exploration
+## Data Exploration and Data cleaning
 
 ## Feature Engineering
 
