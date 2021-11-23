@@ -82,15 +82,21 @@ To access to sphinx in the path repesitory in the terlinal, we need to type:
 
 ## Mlflow ui
 To access to mlflow in the path repesitory, we just need to type 
+
 * _mlflow ui_
+
 To access the ui we just need to copy and paste the local url into a web browser.
 
 By running Mlflow ui from our base folder, it creates a folder named mlruns that contains our experiments run with all the information about the model.
+
 ![ke,rl](https://user-images.githubusercontent.com/93646318/143025579-db0e6e0e-6f3b-4f29-b4a5-f3716878eacb.PNG)
 
 We can see Mlflow running, and access to all the runs 
+
 ![kehirfb](https://user-images.githubusercontent.com/93646318/143021243-ef60f0bd-1a1e-4305-b516-4e39cea69106.PNG)
+
 ![jbfd](https://user-images.githubusercontent.com/93646318/143021350-d80148a7-3b5e-4341-baf7-82140cdcffa9.PNG)
+
 ![kdjd](https://user-images.githubusercontent.com/93646318/143025810-d29e4d92-9aba-43ea-8fe9-0ed1de2f3839.PNG)
 
 ## SHAP
