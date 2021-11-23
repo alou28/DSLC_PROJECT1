@@ -99,7 +99,18 @@ We can see Mlflow running, and access to all the runs
 
 ![kdjd](https://user-images.githubusercontent.com/93646318/143025810-d29e4d92-9aba-43ea-8fe9-0ed1de2f3839.PNG)
 
+Deployment the model in the local REST, using the command line  :
+
+* mlflow run . -P alpha=200
+* mlflow ui
+
+![hdhjfhdf](https://user-images.githubusercontent.com/93646318/143030869-4868e5e2-0308-4864-85ef-613c24b51589.PNG)
+
+![kekdk](https://user-images.githubusercontent.com/93646318/143030925-a54b44ec-aefa-4a5e-8bd7-f1ff8219aa28.PNG)
+
 ## SHAP
+
+![shap](https://user-images.githubusercontent.com/93646318/143031053-bd68d9e3-0a52-46bc-af2b-d9dc72517b8f.PNG)
 
 ![jbnj](https://user-images.githubusercontent.com/93646318/143021381-9e17e483-311a-4eb9-bc4a-89f37bcb8ec1.PNG)
 
