@@ -44,14 +44,14 @@ It contains various informations about previous loans and the if the loans has b
 
 ## Data Exploration and Data cleaning
 
+For the data exploration we focus on Target data to see the importance of this column into the dataset.
+
 ![krkr](https://user-images.githubusercontent.com/93646318/143035504-4fd45f32-fe80-408f-938f-7001642b46c0.PNG)
 
 ![1](https://user-images.githubusercontent.com/93646318/143035522-9b91be5b-9852-437a-9a29-538f3729efb9.PNG)
 
 ![2](https://user-images.githubusercontent.com/93646318/143035551-f8b924f8-f893-48c0-95cd-e5221c59d488.PNG)
 
-
-For the data exploration we focus on Target data to see the importance of this column into the dataset.
 
 *Data cleaning
 
