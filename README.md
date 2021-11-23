@@ -1,3 +1,0 @@
-# DSLC_PROJECT1
-
-
