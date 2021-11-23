@@ -75,8 +75,6 @@ to do that we will be using this precise workflow :
 * Mlflow: Help manage the complete machine learning lifecycle of a data science Project
 * SHAP: Game theoretic approach to explain the output of any machine learning model.
 
-We decided to start computing models on Jupyter Lab in a Conda environment. We decided to not use multiple branches in the Git repository, as we thought it wasn't necessary. For the project documentation, we used Sphinx.
-
 First, We encode the categorical columns values and then split the data into train and test values. 
 Now, our datas are ready for the model training and prediction.
 
