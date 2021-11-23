@@ -110,6 +110,8 @@ Deployment the model in the local REST, using the command line  :
 
 ## SHAP
 
+SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions.
+
 ![shap](https://user-images.githubusercontent.com/93646318/143031053-bd68d9e3-0a52-46bc-af2b-d9dc72517b8f.PNG)
 
 ![jbnj](https://user-images.githubusercontent.com/93646318/143021381-9e17e483-311a-4eb9-bc4a-89f37bcb8ec1.PNG)
