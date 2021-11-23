@@ -25,21 +25,16 @@ It contains various informations about previous loans and the if the loans has b
 ## Project Organization
 
 * __DSLC_PROJECT__ : the root directory of the project
-  * __Data__ : the directory containing all the data used for the project
-    * __application_train.csv__ :Data from the dataset in the kaggle The initial dataset, its contain information about loans and loans applicants (at application time), each line is a unique application
-    * __application_test.csv__ : The initial dataset, its contain information about loans and loans applicants (at application time), each line is a unique application
-    * __mlflow_train.csv__ : The initial dataset, its contain information about loans and loans applicants (at application time), each line is a unique application
-* __Model__ : the directory containing all the models trained for that project saved as pickled files
-  * __GradientBoosting.pkl__ : A gradient boosting model
-  * __RandomForest.pkl__ : A random forest model
-  * __XGBoost.pkl__ : An Extra Gradient Boosting model
+  * __application_train.csv__ :Data from the dataset in the kaggle The initial dataset, its contain information about loans and loans applicants (at application time), each line is a unique application
+  * __application_test.csv__ : The initial dataset, its contain information about loans and loans applicants (at application time), each line is a unique application that we need to predict at the ned 
+* __mlflow_train.csv__ : The dataset used to train the model with mlflow.this dataset is already cleaned and standardized
 * __Notebook__ : The directory containing the 6 notebooks used for that project
   * __DDSLC_PROJECT__ : The notebook with all the informations
   * __Data_preparation.ipynb__ : A notebook which collect the data from application_train.csv and application_test.csv
   * __Features_engineering.ipynb__ : A notebook that encode the categorical columns values and then split the data into train and test values. 
-  * __Model_training.ipynb__: A notebook to train the 3 machine learning models
-  * __MLFLOW_PART.ipynb__: A notebook used to evaluate the trained models
+  * __Model_training and prediction.ipynb__: A notebook to train the 3 machine learning models
 * __mlruns__ : A directory created when using MLflow which contains the runs' logs
+* __train.py__: A py file used to deploy the model with mlflow 
 * __ReadMe.md__ : The file you are currently reading
 * __.gitignore__ : A file that is used to exclude files that shan't be on the git either because they're not relevant (like Jupyter's logs) or because they're too big (like the models and datasets)
 
@@ -129,10 +124,16 @@ We can see Mlflow running, and access to all the runs
 
 ![kdjd](https://user-images.githubusercontent.com/93646318/143025810-d29e4d92-9aba-43ea-8fe9-0ed1de2f3839.PNG)
 
-Deployment the model in the local REST, using the command line  :
-
+Deployment of packaged model 
+We used Random Forest to train our mlflow model.
 * mlflow run . -P alpha=200
 * mlflow ui
+
+Deployment the model in the local REST, using the command line  :
+
+mlflow models serve --model-uri mlruns\0\run-id\artifacts\model -p
+ 1234
+
 
 ![hdhjfhdf](https://user-images.githubusercontent.com/93646318/143030869-4868e5e2-0308-4864-85ef-613c24b51589.PNG)
 
