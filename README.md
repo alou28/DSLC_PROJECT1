@@ -1,8 +1,6 @@
-# DSLC_PROJECT1
+# DSLC_PROJECT1 - APPLICATION OF BIG DATA -
 
-## APPLICATION OF BIG DATA
-
-This project is for the course "Application of Big Data" By:
+This project is for the course "Application of Big Data", made by:
 
 * Alain NGOMEDJ
 * Emeric BERTIN
