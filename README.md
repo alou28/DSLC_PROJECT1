@@ -82,6 +82,24 @@ Now, our datas are ready for the model training and prediction.
 
 # Models Training and prediction
 
+## XGBOOST
+
+![image](https://user-images.githubusercontent.com/93646318/143036266-eca2d339-cd3c-41a0-b6b0-16fde59b9d6a.png)
+
+![image](https://user-images.githubusercontent.com/93646318/143036340-31c15343-c866-4b95-8b39-1f2c321efaf3.png)
+
+![image](https://user-images.githubusercontent.com/93646318/143036409-f9221052-a2b6-4a69-a064-1425fb11b719.png)
+
+## Random Forest
+
+![image](https://user-images.githubusercontent.com/93646318/143036474-1b46be64-5b90-481e-aac9-631854746ea2.png)
+
+![image](https://user-images.githubusercontent.com/93646318/143036504-293f8c72-11d6-4a3a-a4cf-89a0c1d4ef68.png)
+
+## Gradient Boost
+
+![image](https://user-images.githubusercontent.com/93646318/143036593-22324be5-5f98-4b1d-bef9-8e6e568e8e40.png)
+
 # Project Outputs
 
 ## Sphinx
