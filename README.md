@@ -72,16 +72,23 @@ Now, our datas are ready for the model training and prediction.
 # Project Outputs
 
 ## Sphinx
+To access to sphinx in the path repesitory in the terlinal, we need to type:
+> make html
+> cd _build\html
+> index.html
+
 ![knlk](https://user-images.githubusercontent.com/93646318/143021301-7f030118-fdeb-4156-84c2-beb5ad34ac74.PNG)
 ![bhjb](https://user-images.githubusercontent.com/93646318/143021313-6b4eaf73-7eae-4b2e-ad16-a485e5097d7d.PNG)
 
 ## Mlflow ui
+To access to mlflow in the path repesitory, we just need to type 
+      *mlflow ui*
+To access the ui we just need to copy and paste the local url into a web browser.
+
 ![kehirfb](https://user-images.githubusercontent.com/93646318/143021243-ef60f0bd-1a1e-4305-b516-4e39cea69106.PNG)
 ![jbfd](https://user-images.githubusercontent.com/93646318/143021350-d80148a7-3b5e-4341-baf7-82140cdcffa9.PNG)
 
 ## SHAP
-
-SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain the output of any machine learning model. It connects optimal credit allocation with local explanations using the classic Shapley values from game theory and their related extensions (see papers for details and citations).
 
 ![jbnj](https://user-images.githubusercontent.com/93646318/143021381-9e17e483-311a-4eb9-bc4a-89f37bcb8ec1.PNG)
 ![Capture](https://user-images.githubusercontent.com/93646318/143021388-f9b8ac9f-eaaf-48a6-b118-31e99bd818d2.PNG)
