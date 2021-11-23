@@ -67,7 +67,7 @@ We decided to start computing models on Jupyter Lab in a Conda environment. We d
 First, We encode the categorical columns values and then split the data into train and test values. 
 Now, our datas are ready for the model training and prediction.
 
-
+# Models Training and prediction
 
 # Project Outputs
 
@@ -102,6 +102,6 @@ We can see Mlflow running, and access to all the runs
 ## SHAP
 
 ![jbnj](https://user-images.githubusercontent.com/93646318/143021381-9e17e483-311a-4eb9-bc4a-89f37bcb8ec1.PNG)
-![Capture](https://user-images.githubusercontent.com/93646318/143021388-f9b8ac9f-eaaf-48a6-b118-31e99bd818d2.PNG)
+
 
 
