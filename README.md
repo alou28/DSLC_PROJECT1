@@ -52,6 +52,9 @@ XGBoost
 Gradient Boosting
 But our goal isn't just to create three machine learning models. Indeed, these models' accuracies aren't very important. In fact the real goal is to implement multiple tools into the project, in order to make the project more understandable for everyone. The tools to be used are:
 
+First, We encode the categorical columns values and then split the data into train and test values. 
+Now, our datas are ready for the model training and prediction.
+
 Git
 Conda environment
 Mlflow
